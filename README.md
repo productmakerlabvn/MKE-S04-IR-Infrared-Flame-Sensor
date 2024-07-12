@@ -8,7 +8,7 @@ Cảm biến lửa MKE-S04 IR Infrared Flame Sensor thuộc hệ sinh thái ph�
 
 ## Nguyên lý hoạt động
 
-Cảm biến hoạt động dựa trên sự thay đổi điện trở (độ dẫn điện) của quang trở (LDR-Light Dependent Resistor) với cường độ ánh sáng của môi trường, để chuyển giá trị điện trở thành điện áp để có thể đọc bằng bộ chuyển đổi ADC (Analog to Digital Converter) của mạch xử lý ta mắc mạch cầu phân áp như sau:
+Cảm biến sử dụng mắt thu hồng ngoại (IR-Infrared Diode) là một loại Photo Diode với khả năng nhận biết ánh sáng hồng ngoại của môi trường (không bị ảnh hưởng bởi các nguồn ánh sáng khác), từ đó có thể nhận biết được ánh sáng hồng ngoại phát ra từ ngọn lửa (các vật thể phát nhiệt thường sẽ phát ra tia hồng ngoại). Khi mắt thu hồng ngoại (IR-Infrared) nhận biết được ánh sáng hồng ngoại từ ngọn lửa phát ra thì điện trở (độ dẫn điện) của mắt thu sẽ thay đổi theo cường độ của ánh sáng hồng ngoại, để chuyển giá trị điện trở thành điện áp để có thể đọc bằng bộ chuyển đổi ADC (Analog to Digital Converter) của mạch xử lý ta mắc mạch cầu phân áp như sau:
 
 ![MKE_S04](/image/MKE_S04_1.jpg)
 
